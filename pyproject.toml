@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai-tts"
+version = "0.1"
+description = "OpenAI Text-to-Speech using GPT-2"
+authors = [
+    { name = "Arham KK", email = "arhamkk@example.com" }  # Replace with a valid email
+]
+dependencies = [
+    "torch", 
+    "transformers", 
+    "soundfile", 
+    "numpy"
+]
+
